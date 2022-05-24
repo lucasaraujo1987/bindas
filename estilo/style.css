@@ -8,8 +8,6 @@
     color: white;
 }
 
-body{
-}
 
 #menu1{    
     height: 100vh;
@@ -17,6 +15,7 @@ body{
     background-position: left top;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 .cabecalho1{
@@ -26,6 +25,8 @@ body{
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.322);
     padding: 20px;
+    position: sticky;
+    top: -1px;
 }
 
 .cabecalho1 > h1{
